@@ -1,0 +1,18 @@
+@id=00000000-0000-0000-0000-000000000000
+
+PUT  http://localhost:5171/events/{{id}}
+Content-Type: application/json
+
+{
+   "title": "Kane Bro,Sara Evans",
+   "tickets": 8,
+   "venue": "Comedy Club",
+   "startDateTime": "2023-04-08T08:00:00",
+    "endDateTime": "2023-04-08T11:00:00",
+     "description":[
+        "concert",
+        "Avocado Toast",
+        "drink",
+        "rock"
+   ]
+}
