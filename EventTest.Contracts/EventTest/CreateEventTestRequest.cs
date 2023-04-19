@@ -1,9 +1,9 @@
 namespace EventTest.Contracts.EventTest;
 
 public record CreateEventTestRequest(
-    string title,
-    int tickets,
-    string venue,
+    string Title,
+    int Tickets,
+    string Venue,
     DateTime StartDateTime,
     DateTime EndDateTime,
-    List<string> description);
+    List<string> Description);

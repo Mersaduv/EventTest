@@ -2,10 +2,10 @@ namespace EventTest.Contracts.EventTest;
 
 public record EventTestResponse(
     Guid Id,
-    string title,
-    int tickets,
-    string venue,
+    string? Title,
+    int Tickets,
+    string? Venue,
     DateTime StartDateTime,
     DateTime EndDateTime,
-    DateTime LastModifiedDateTime,
-    List<string> description);
+    DateTimeOffset LastModifiedDateTime,
+    List<string>? Description);
